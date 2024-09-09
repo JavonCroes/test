@@ -3,7 +3,7 @@
 $score = 70;
 
 switch ($score) {
-    case ($score > 90):
+    case ($score >= 90):
         echo "Geweldig ";
         break;
     case ($score >= 75 && $score <= 90):
